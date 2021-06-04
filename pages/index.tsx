@@ -1,7 +1,11 @@
+import { Layout } from '../components/Layout/Layout'
+
 const Home = (): JSX.Element => {
   return (
     <>
-      <h1>Hello World</h1>
+      <Layout>
+        <h1>Hello World</h1>
+      </Layout>
     </>
   )
 }
