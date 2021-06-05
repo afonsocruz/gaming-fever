@@ -1,9 +1,7 @@
-import { ModalTagsContent } from '../../components/ModalTagsContent'
-
 const Ps5 = (): JSX.Element => {
   return (
     <>
-      <ModalTagsContent />
+      <h1>PS5</h1>
     </>
   )
 }
